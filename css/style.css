@@ -18,3 +18,20 @@ header nav{
     border: 1px solid white;
     color: white;
 }
+
+#contact input{
+    width: 100%;
+    border: none;
+}
+
+#contact textarea{
+    width: 100%;
+    border: none;
+    resize: none;
+}
+
+#contact input:last-child{
+    width: initial;
+    background-color: #1abc9c;
+    color: white;
+}
