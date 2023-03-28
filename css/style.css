@@ -9,3 +9,12 @@ header nav{
 #jumbotron img{
     width: 25%;
 }
+
+#about{
+    background-color: #1abc9c;
+}
+
+#about .btn{
+    border: 1px solid white;
+    color: white;
+}
