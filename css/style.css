@@ -13,6 +13,12 @@ header nav{
     background-color: var(--my-col-secondary);
 }
 
+.my-hr{
+    border: 2px solid white;
+    opacity: 1;
+    border-radius: 2px;
+}
+
 #about{
     background-color: var(--my-col-secondary);
 }
