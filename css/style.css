@@ -19,7 +19,8 @@ header nav{
     border-radius: 2px;
 }
 
-#portfolio .my-hr{
+#portfolio .my-hr,
+#contact .my-hr{
     border-color: var(--my-col-primary);
 }
 
@@ -34,6 +35,11 @@ header nav{
 #contact input, 
 #contact textarea{
     outline: none;
+}
+
+#contact input::placeholder, 
+#contact textarea::placeholder{
+    color: var(--my-col-primary);
 }
 
 #contact textarea{
