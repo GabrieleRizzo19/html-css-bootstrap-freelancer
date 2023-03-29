@@ -13,8 +13,16 @@ header nav{
     background-color: var(--my-col-primary);
 }
 
+header nav a:hover {
+    text-decoration: underline;
+}
+
 #jumbotron{
     background-color: var(--my-col-secondary);
+}
+
+.fa-star{
+    font-size: 2em;
 }
 
 .my-hr{
