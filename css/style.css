@@ -4,6 +4,10 @@
     --my-col-secondary: #1abc9c;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 header nav{
     background-color: var(--my-col-primary);
@@ -54,6 +58,26 @@ header nav{
 
 #footer-top{
     background-color: var(--my-col-primary-light);
+}
+
+#footer-top h4{
+    font-weight: 400;
+}
+
+.my-icon-circle{
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 35px;
+}
+
+#start-bootstrap-link{
+    color: var(--my-col-secondary);
+}
+
+#start-bootstrap-link:hover{
+    text-decoration: underline;
 }
 
 #footer-bottom{
