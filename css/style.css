@@ -19,6 +19,14 @@ header nav{
     border-radius: 2px;
 }
 
+#portfolio .my-hr{
+    border-color: var(--my-col-primary);
+}
+
+/* #portfolio img{
+    border-radius: 20px;
+} */
+
 #about{
     background-color: var(--my-col-secondary);
 }
