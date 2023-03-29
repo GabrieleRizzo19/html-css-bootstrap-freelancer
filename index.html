@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
         <title>Start Bootstrap</title>
@@ -13,25 +14,25 @@
         
         <header>
             <!-- NAV -->
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar">
                 <div class="container">
-                    <a class="navbar-brand text-white" href="#"><h1>START BOOTSTRAP</h1></a>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon text-white"></span>
-                    </button>
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav ms-auto">
+                    <a class="navbar-brand text-white" href="#"><span class="h4">START BOOTSTRAP</span></a>
+                    <div>
+                        <ul class="d-none d-md-flex navbar-nav flex-row gap-3">
                             <li class="nav-item">
-                                <a class="nav-link active text-white" href="#">PORTFOLIO</a>
+                                <a class="nav-link text-white" href="#">PORTFOLIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" href="#">PORTFOLIO</a>
+                                <a class="nav-link text-white" href="#">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" href="#">PORTFOLIO</a>
+                                <a class="nav-link text-white" href="#">CONTACT</a>
                             </li>
                         </ul>
+
+                        <div class="d-md-none">
+                            <i class="fa-solid fa-bars text-white"></i>
+                        </div>
                     </div>
                     
                 </div>
@@ -42,31 +43,15 @@
 
             <!-- JUMBOTRON -->
             <section id="jumbotron">
-                <div class="container text-white py-5">
+                <div class="container-md py-5">
                     <div class="row">
-                        <div class="col-6 mx-auto">
+                        <div class="col-12">
                             <div class="row justify-content-center align-items-center">
-                                <img src="https://placehold.co/100x100" alt="">
-                            </div>
-                            <div class="row text-center align-items-center">
-                                <h1>START BOOTSTRAP</h1>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <hr>
-                                </div>
-                                <div class="col-auto text-center">
-                                    STELLA
-                                </div>
-                                <div class="col">
-                                    <hr>
-                                </div>
-                            </div>
-                            <div class="row text-center">
-                                <span>GRAPHIC ARTIST - WEB SESIGNER - ILLUSTRATOR</span> 
+                                <img class="w-50" src="./img/avatar.svg" alt="">
                             </div>
                         </div>
                     </div>
+                    <div class="row"></div>
                 </div>
             </section>
 
@@ -91,45 +76,45 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-4 p-4">
+                        <div class="col-12 col-md-6 col-lg-4 p-4">
                             <div class="row justify-content-center bg-danger p-3">
                                 <div class="w-50 text-center">
-                                    <img src="https://placehold.co/100x100" alt="">
+                                    <img class="w-100" src="https://placehold.co/100x100" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-4">
+                        <div class="col-12 col-md-6 col-lg-4 p-4">
                             <div class="row justify-content-center bg-danger p-3">
                                 <div class="w-50 text-center">
-                                    <img src="https://placehold.co/100x100" alt="">
+                                    <img class="w-100" src="https://placehold.co/100x100" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-4">
+                        <div class="col-12 col-md-6 col-lg-4 p-4">
                             <div class="row justify-content-center bg-danger p-3">
                                 <div class="w-50 text-center">
-                                    <img src="https://placehold.co/100x100" alt="">
+                                    <img class="w-100" src="https://placehold.co/100x100" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-4">
+                        <div class="col-12 col-md-6 col-lg-4 p-4">
                             <div class="row justify-content-center bg-danger p-3">
                                 <div class="w-50 text-center">
-                                    <img src="https://placehold.co/100x100" alt="">
+                                    <img class="w-100" src="https://placehold.co/100x100" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-4">
+                        <div class="col-12 col-md-6 col-lg-4 p-4">
                             <div class="row justify-content-center bg-danger p-3">
                                 <div class="w-50 text-center">
-                                    <img src="https://placehold.co/100x100" alt="">
+                                    <img class="w-100" src="https://placehold.co/100x100" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 p-4">
+                        <div class="col-12 col-md-6 col-lg-4 p-4">
                             <div class="row justify-content-center bg-danger p-3">
                                 <div class="w-50 text-center">
-                                    <img src="https://placehold.co/100x100" alt="">
+                                    <img class="w-100" src="https://placehold.co/100x100" alt="">
                                 </div>
                             </div>
                         </div>
@@ -167,7 +152,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dicta incidunt eius perspiciatis possimus, repellendus quis placeat nulla vitae soluta consequuntur aspernatur doloribus odio dolorum ipsum unde vel voluptates tempora?</p>
                         </div>
                     </div>
-                    <a class="btn" href="#">Download</a>
+                    <a class="btn btn-outline-light" href="#">Download</a>
                 </div>
                 
             </section>
@@ -191,10 +176,10 @@
                             </div>
                         </div>
                     </div>
-                    <input class="py-3 border-bottom" type="text" placeholder="Name">
-                    <input class="py-3 border-bottom" type="email" placeholder="Email Address">
-                    <input class="py-3 border-bottom" type="tel" placeholder="Phone Number">
-                    <textarea class="border-bottom" rows="5" placeholder="Message"></textarea>
+                    <input class="py-3 w-100 border border-0 border-bottom" type="text" placeholder="Name">
+                    <input class="py-3 w-100 border border-0 border-bottom" type="email" placeholder="Email Address">
+                    <input class="py-3 w-100 border border-0 border-bottom" type="tel" placeholder="Phone Number">
+                    <textarea class="py-3 w-100 border border-0 border-bottom" rows="5" placeholder="Message"></textarea>
                     <input class="btn" type="submit" value="Send">
                 </div>
             </section>
