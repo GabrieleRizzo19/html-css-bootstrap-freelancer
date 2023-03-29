@@ -1,3 +1,5 @@
+/* GENERIC */
+
 :root{
     --my-col-primary: #081f31;
     --my-col-primary-light: #2c3e50;
@@ -7,18 +9,6 @@
 a{
     text-decoration: none;
     color: inherit;
-}
-
-header nav{
-    background-color: var(--my-col-primary);
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-#jumbotron{
-    background-color: var(--my-col-secondary);
 }
 
 .fa-star{
@@ -31,18 +21,36 @@ header nav a:hover {
     border-radius: 2px;
 }
 
+/* HEADER */
+
+header nav{
+    background-color: var(--my-col-primary);
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* JUMBOTRON */
+
+#jumbotron{
+    background-color: var(--my-col-secondary);
+}
+
+/* PORTFOLIO SECTION  */
+
 #portfolio .my-hr,
 #contact .my-hr{
     border-color: var(--my-col-primary);
 }
 
-/* #portfolio img{
-    border-radius: 20px;
-} */
+/* ABOUT SECTION */
 
 #about{
     background-color: var(--my-col-secondary);
 }
+
+/* CONTACT SECTION */
 
 #contact input, 
 #contact textarea{
@@ -63,6 +71,8 @@ header nav a:hover {
     background-color: var(--my-col-secondary);
     color: white;
 }
+
+/* FOOTER */
 
 #footer-top{
     background-color: var(--my-col-primary-light);
