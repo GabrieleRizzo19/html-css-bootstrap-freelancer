@@ -6,6 +6,10 @@
     --my-col-secondary: #1abc9c;
 }
 
+html{
+    scroll-padding-top: 60px;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -20,6 +24,7 @@ a{
     opacity: 1;
     border-radius: 2px;
 }
+
 
 /* HEADER */
 
