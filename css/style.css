@@ -25,16 +25,22 @@ a{
 
 header nav{
     background-color: var(--my-col-primary);
+    height: 60px;
 }
 
 header nav a:hover {
     text-decoration: underline;
 }
 
+.my-nav-shadow{
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
 /* JUMBOTRON */
 
 #jumbotron{
     background-color: var(--my-col-secondary);
+    margin-top: 60px;
 }
 
 /* PORTFOLIO SECTION  */
